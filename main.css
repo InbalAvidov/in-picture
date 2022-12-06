@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: rgb(194, 248, 230);
+}
+
+button {
+    font-family: cursive;
+    margin-bottom: 10px;
+    color: lightseagreen;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.background {
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.picture {
+    height: 150px;
+    margin-top: 10px;
+}
+
+.answer {
+    height: 40px;
+    width: 280px;
+    background-color: antiquewhite;
+    margin: 10px;
+    font-family: cursive;
+}
+
+.incorrect {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(65, 185, 175);
+    color: white;
+    font-family: cursive;
+    transition: 0.7s;
+    opacity: 0;
+    margin: auto;
+
+}
+
+.game-over {
+    opacity: 0;
+    transition: 0.7s;
+    height: 60px;
+    width: 100px;
+    background-color: rgb(103, 103, 206);
+    color: white;
+    font-family: cursive;
+    margin: auto;
+   padding: 10px;
+   
+
+}
+
+.restart {
+    margin-top: 15px;
+    
+}
